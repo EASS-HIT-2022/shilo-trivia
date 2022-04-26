@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8080:80"
+  db:
+    build: ./dbService
+    ports:
+      - "8000:80"
