@@ -1,6 +1,0 @@
-Backend
-run backend server: uvicorn app.main:app --port 8080  --reload
-activate backend env:  source fastapi-env/bin/activate 
-
-TBD:
-1. how to usw with pydantic
