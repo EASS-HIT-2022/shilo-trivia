@@ -18,3 +18,30 @@ How to run:
      - Go To ..../https--api-demo-shilo
      - Run docker compose build
      - Run docker compose up     
+
+EndPoints:
+  1. POST: http://backend:8080/sign-up 
+     BODY: {
+             "user_name": "string",
+             "email": "user@example.com",
+             "first_name": "string",
+             "middel_name": "string",
+             "last_name": "string",
+             "password": "string"
+            }
+  2. POST: http://backend:8080/sign-in 
+     BODY: {
+             "user_name": "string",
+             "password": "string"
+            }
+  3. POST: http://backend:8080/add-new-question 
+     BODY: {
+             "theme": "string",
+             "question": "string",
+             "answer": "string",
+             "other_answer": [
+                         "string"
+                         ]
+           }
+  4. GET: http://backend:8080/questions?theme=Sports
+  5. GET:  http://backend:8080/get-caterories
