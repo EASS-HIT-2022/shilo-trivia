@@ -3,8 +3,12 @@ services:
   backend:
     build: ./backend
     ports:
-      - "8080:80"
+      - "8080:8080"
   db:
     build: ./dbService
     ports:
-      - "8000:80"
+      - "8000:8000"
+  frontend:
+    build: ./frontend/app
+    ports:
+      - "8081:8081"
