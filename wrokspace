@@ -1,8 +1,0 @@
-
-Backend
-run backend server: uvicorn backend/app.main:app  --reload
-activate backend env:  source backend/fastapi-env/bin/activate
-
-
-TBD:
-1. how to usw with pydantic

@@ -2,6 +2,7 @@
 import fastapi
 import uvicorn
 import asyncio
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.auth.authService import sginup, sginin
 from app.questions.dto.questionsDto import BaseQuestion
@@ -11,6 +12,16 @@ from .questions import *
 
 
 app = fastapi.FastAPI()
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post('/sign-up', status_code=201)
 async def create_user(new_user: NewUserCredential):

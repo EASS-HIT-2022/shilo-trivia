@@ -1,0 +1,61 @@
+.home-page-container{
+    height: 213px;
+    width: 614px;
+    background-color: rgb(59 111 142 / 81%);
+    border-radius: 70px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid rgb(232 202 44);
+}
+
+#home-page-container{
+    margin-left: -10px;
+}
+
+#Rtp{
+    font-size: 40px;
+    margin-top: -16px;
+}
+
+#Such{
+    font-size: 40px;
+    margin-top: -9px;
+}
+
+#emojiHends{
+    font-size: 43px;
+    margin-top: -32px;
+}
+
+#emojiHends1{
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+#categories{
+    margin-right: 40px;
+    font-size: 26px;
+}
+
+#emojiHends2{
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+#start-play-panel{
+    margin-top: 35px;
+}
+
+#start-play{
+    width: 170px;
+    margin-right: 43px;
+}
+
+.category-box{
+    margin-top: -11px;
+}
+
+.home-page-h{
+    font-size: 87px;
+    margin-top: -4px;
+}

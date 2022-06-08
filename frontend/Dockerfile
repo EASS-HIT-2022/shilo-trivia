@@ -14,6 +14,8 @@ COPY ./package-lock.json /frontend
 RUN npm install
 RUN npm install --silent
 RUN npm install react-scripts@3.4.1 -g --silent
+RUN npm install --save react-router-dom
+RUN npm i axios
 
 # add app
 COPY . ./

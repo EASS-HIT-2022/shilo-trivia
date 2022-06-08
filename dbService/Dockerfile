@@ -4,6 +4,7 @@ RUN pip3 install fastapi
 RUN pip3 install uvicorn
 RUN pip3 install pydantic
 RUN pip3 install email-validator
+RUN pip3 install sqlalchemy
 
 COPY . .
 

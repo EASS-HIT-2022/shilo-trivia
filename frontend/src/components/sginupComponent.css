@@ -1,0 +1,146 @@
+#sginup-box-container{
+    height: 700px;
+    width: 540px;
+    background-color: rgb(59 111 142 / 81%);
+    border-radius: 70px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid rgb(232 202 44);
+}
+
+#sginup-box{
+    margin-top: 91px;
+}
+
+#login-p-text{
+  margin-top: 250px; 
+}
+
+#uname-type{
+    margin-right: 40px;
+}
+
+#uemail-type{
+    margin-right: 125px;
+}
+
+#ufirstname-type{
+    margin-right: 45px;
+}
+
+#umiddelname-type{
+    margin-right: 11px;
+}
+
+#ulastname-type{
+    margin-right: 51px;
+}
+
+#upassword-type{
+  margin-right: 63px;
+}
+
+#username{
+    margin: 20px
+}
+
+#user-password{
+    margin: 20px
+}
+
+#signin{
+    margin: 10px;
+    width: 50%;
+}
+
+.filed{
+    margin: 30px;
+}
+.p-text{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0 0 0);
+  font-weight: 400;
+  width: 479px;
+  padding: 184px 16px;
+  font-size: 15px;
+}
+
+.text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.inputext{
+    height: 28px;
+    width: 210px;
+    border-radius: 8px;
+}
+
+#signup{
+    margin-top: 100px;
+    width: 50%;
+}
+
+
+
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
