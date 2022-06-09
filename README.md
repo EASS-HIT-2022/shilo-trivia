@@ -19,7 +19,8 @@ How to run:
   2. - Clone project: gh repo clone EASS-HIT-2022/shilo-trivia
      - Go To ..../shilo-trivia
      - Run docker compose build
-     - Run docker compose up     
+     - Run docker compose up    
+  3. Open browser and navigate to: http://localhost:3000/.
 
 Backend EndPoints:
   1. POST: http://backend:8080/sign-up 
