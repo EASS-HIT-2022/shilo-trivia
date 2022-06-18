@@ -61,3 +61,6 @@ Frontend Component:
 DB:
    sqlalchemy with python and fastapi.
   
+  
+ # Video Link:
+     https://youtu.be/_FgKaggk608
